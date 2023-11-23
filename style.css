@@ -1,0 +1,336 @@
+body {
+  background-color: #f2f2f2;
+}
+
+.visually-hidden {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+}
+
+/*! CSS Used from: Embedded */
+.bLFdMS> :not(:first-child):not(:empty) {
+  margin-top: 8px !important;
+}
+
+@media screen and (min-width: 768px) {
+  .bLFdMS> :not(:first-child):not(:empty) {
+    margin-top: 12px !important;
+  }
+}
+
+.hXyzRs {
+  margin-right: -16px;
+  display: grid;
+  position: relative;
+  grid-template-rows: auto 50px auto;
+  grid-template-columns: auto 16px;
+}
+
+@media screen and (min-width: 480px) {
+  .hXyzRs {
+    margin-right: -24px;
+    grid-template-rows: auto 62px auto;
+    grid-template-columns: auto 24px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hXyzRs {
+    margin-right: 0px;
+    grid-auto-flow: row;
+    grid-template-columns: 3fr 1fr 2fr;
+    grid-template-rows: 48px auto 28px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .hXyzRs {
+      grid-template-rows: 64px auto 32px;
+    }
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .hXyzRs {
+    grid-template-columns: 2.5fr 0.5fr 3fr;
+  }
+}
+
+@media screen and (min-width: 1260px) {
+  .hXyzRs {
+    grid-template-rows: 96px auto 28px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .hXyzRs {
+      grid-template-rows: 96px auto 32px;
+    }
+  }
+}
+
+.kiMAcw {
+  background-color: rgb(255, 255, 255);
+  z-index: 2;
+  position: relative;
+  grid-area: 2 / 1 / span 2 / auto;
+}
+
+@media screen and (min-width: 768px) {
+  .kiMAcw {
+    grid-area: 2 / 1 / auto / span 2;
+  }
+}
+
+.dAbjsl {
+  z-index: 1;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-radius: 0px;
+  grid-area: 1 / 1 / span 2 / span 2;
+  background-color: rgb(255, 255, 255);
+}
+
+@media screen and (min-width: 480px) {
+  .dAbjsl {
+    min-height: 310px !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .dAbjsl {
+    min-height: unset;
+
+    grid-area: 1 / 2 / span 3 / span 2;
+  }
+}
+
+.image-bg {
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  min-height: 200px;
+  background-image: url("https://mediace.justice.cz/wp-content/uploads/2023/07/mediacehero.jpg");
+  animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  transition-timing-function: ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+  .image-bg {
+    background-image: url("https://mediace.justice.cz/wp-content/uploads/2023/07/mediacehero.jpg");
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .image-bg {
+    background-image: url("https://mediace.justice.cz/wp-content/uploads/2023/07/mediacehero.jpg");
+  }
+}
+
+.image-vavra {
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  min-height: 200px;
+  background-image: url("http://soudci.cz/Soubory/L.%20Vavra%202018.jpg");
+  animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  transition-timing-function: ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+  .image-vavra {
+    background-image: url("http://soudci.cz/Soubory/L.%20Vavra%202018.jpg");
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .image-vavra {
+    background-image: url("http://soudci.cz/Soubory/L.%20Vavra%202018.jpg");
+  }
+}
+
+.image-lada {
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  min-height: 150px;
+  background-image: url("http://soudci.cz/Soubory/Roman%20Lada%20orez-retus-web.jpg");
+  animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  transition-timing-function: ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+  .image-lada {
+    background-image: url("http://soudci.cz/Soubory/Roman%20Lada%20orez-retus-web.jpg");
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .image-lada {
+    background-image: url("http://soudci.cz/Soubory/Roman%20Lada%20orez-retus-web.jpg");
+  }
+}
+
+.image-ladasm {
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  min-height: 150px;
+  background-image: url("http://soudci.cz/Soubory/Roman%20Lada%20orez-retus-web.jpg");
+  animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  transition-timing-function: ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+  .image-ladasm {
+    background-image: url("http://soudci.cz/Soubory/Roman%20Lada%20orez-retus-web.jpg");
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .image-ladasm {
+    background-image: url("http://soudci.cz/Soubory/Roman%20Lada%20orez-retus-web.jpg");
+  }
+}
+
+/*! CSS Used keyframes */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.horizontal-snap {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1rem;
+
+  padding: 1rem;
+
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  scrollbar-color: #EF476F #f2f2f2;
+}
+
+.horizontal-snap>a {
+  scroll-snap-align: center;
+}
+
+.horizontal-snap img {
+  width: 180px;
+  max-width: none;
+  object-fit: contain;
+  border-radius: 1rem;
+}
